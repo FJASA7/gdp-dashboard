@@ -3,7 +3,7 @@ import urllib.parse
 
 st.set_page_config(page_title="Image & Phone Search Tool", layout="centered")
 
-st.title("أداة البحث عن الصور والأرقام")
+st.title("أداة خاصه للبحث عن الصور والأرقام")
 st.markdown("حمّل صورة أو اكتب رقم جوال، وراح نبحث لك وين تم استخدامهم على الإنترنت.")
 
 # البحث بالصورة
@@ -17,7 +17,7 @@ if image_file:
         st.info("جارٍ تجهيز الرابط...")
         st.markdown("افتح الرابط التالي:")
         st.markdown("[بحث Yandex](https://yandex.com/images/)")
-        st.warning("انسخ الصورة يدويًا وابحث عنها هناك (تقييد من ياندكس يمنع رفعها تلقائيًا حالياً).")
+        st.warning("انسخ الصورة يدويًا وابحث عنها هناك (يا محمد ترا ياندكس يمنع رفعها تلقائيًا حالياً).")
 
 # البحث برقم الجوال
 st.header("البحث باستخدام رقم جوال")
